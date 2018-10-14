@@ -1,6 +1,8 @@
 # botkit-hashtag-sample-app
 This is a sample application for play with [botkit-hashtag](https://www.npmjs.com/package/botkit-hashtag).
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Requirements
 You need TWO SLACK TOKENS.
 

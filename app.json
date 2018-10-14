@@ -1,0 +1,19 @@
+{
+  "name": "A Sample for botkit-hashtag ",
+  "description": "This is a sample application for play with botkit-hashtag",
+  "repository": "https://github.com/o0h/botkit-hashtag-sample-app",
+  "keywords": ["botkit", "slack", "bot"],
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "A secret key of bot for listening and records yoru posts to 'Hashtag-channel'."
+    },
+    "SLACK_ADMIN_TOKEN": {
+      "description": "Another secret token for creating new channels.This account must be `user` type and have `channels:write` permission."
+    },
+    "TZ" : {
+      "description": "Set your locale. eg:Asia/Tokyo",
+      "value": "UTC",
+      "required": false
+    }
+  }
+}
